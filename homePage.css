@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+}
+
+.header {
+    height: 40%;
+    display: flex;
+}
+.header p {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.siteName {
+    display: flex;
+    margin: 20px;
+    height: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#barNav {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    border-top: 2px solid black;
+}
+
+.imgDiv {
+    position: relative;
+ display: flex; 
+ justify-content: center;
+ flex-wrap: wrap;
+
+}
+
+Img {
+    margin-right: -50px;
+}
+.bouton {
+    background: white;
+    border: 0px;
+}
+.bouton1 {
+    border: 0px;
+    border-right: 1.5px solid grey;
+    background: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.pagBar {
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteButton {
+    margin-left:20px;
+    border-radius: 20px;
+    width:400px; 
+    height: 400px;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    display: none;
+}
+
+
+.Close {
+    position: absolute;
+    font-size: 60px;
+}
+
+figure {
+    border-radius: 30px;
+}
+
+
+
+
+/*animations*/
+
+.Popup_Container {
+    position: absolute;
+    height: 100%;
+    width: 99%;
+}
+.Popup {
+    z-index: 1;  
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 99%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cen {
+    display: flex;
+    align-items: center;
+}
+.Grand_Image {
+    
+    border-radius: 30px 0px 0px 30px;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    background: white;
+}
+.Popup_Image {
+ flex: 1.5;
+}
+.Popup_description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
